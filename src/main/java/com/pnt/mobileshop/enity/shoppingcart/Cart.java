@@ -16,6 +16,16 @@ public class Cart {
     @JoinColumn(name = "user_id")
     private User user;
 
+    private Boolean active;
+
+    public Boolean getActive() {
+        return active;
+    }
+
+    public void setActive(Boolean active) {
+        this.active = active;
+    }
+
     public Cart() {
     }
 

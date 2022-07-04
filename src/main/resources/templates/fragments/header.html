@@ -34,6 +34,7 @@
                     <li><a href="/shopPage">Shop</a></li>
                     <li><a href="/contactPage">Contact</a></li>
                     <li sec:authorize="hasAnyAuthority('USER')"><a href="/cartPage">Cart</a></li>
+                    <li sec:authorize="hasAnyAuthority('USER')"><a href="/billPage">Order</a></li>
                 </ul>
             </nav>
             <!-- //nav -->
